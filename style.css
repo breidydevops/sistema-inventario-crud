@@ -1,0 +1,159 @@
+/* Estilos Generales y Limpios */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f8f9fa;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Contenedores de Tarjetas (Formularios y Paneles) */
+.card,
+form {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 400px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #1a1a1a;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Campos de entrada */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #4f46e5;
+}
+
+/* Botones modernos */
+button,
+.btn {
+  display: inline-block;
+  background-color: #4f46e5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+button:hover,
+.btn:hover {
+  background-color: #4338ca;
+}
+
+/* Enlaces y textos secundarios */
+a {
+  color: #4f46e5;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Estilo específico para el Dashboard (Panel amplio) */
+.dashboard-container {
+  max-width: 900px;
+  width: 100%;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Tablas Minimalistas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: white;
+}
+
+th,
+td {
+  padding: 14px 16px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.9rem;
+}
+
+th {
+  background-color: #fafafa;
+  color: #111;
+  font-weight: 600;
+}
+
+tr:hover {
+  background-color: #fafafa;
+}
+
+/* Botones de acción en tablas (editar/eliminar pequeños) */
+.btn-small {
+  padding: 6px 12px;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  margin-right: 5px;
+  width: auto;
+}
+
+.btn-danger {
+  background-color: #ef4444;
+}
+.btn-danger:hover {
+  background-color: #dc2626;
+}
